@@ -43,7 +43,7 @@ A search on the Kaggle Lyrics Dataset can confirm if the artist being seeked is 
 
 * Now the topic's values (relationship, distant, anger, etc.) can be visualized for each song. 
 
-![image](https://user-images.githubusercontent.com/55423732/71785094-943a4480-2fc9-11ea-8416-e13576b2d960.png)
+![B472F3CC-C5F1-4F4F-931D-55DA299EDB95_4_5005_c](https://user-images.githubusercontent.com/55423732/71785119-e0858480-2fc9-11ea-9d07-f550d61cc015.jpeg)
 
 * Now set a threshold in order for the set to return the values of either 0 or 1 for the topic per each song. 
 
