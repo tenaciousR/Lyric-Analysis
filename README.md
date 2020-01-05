@@ -1,7 +1,7 @@
 # Lyrical Analysis of Blink-182 Songs
 
 ## Introduction 
-* Analyzing the most common words over all the songs and then creating 6 topics through vector implimentation to group these words under. Then, interpreting an emotional adjective (love song, hate, breakup, etc.) from the compiled result per topic. Next, comparing each song to the emotional adjectives selected to visualize which emotional adjective is closest to the words in the song. Then the songs are sorted by year and the topic of the songs are plotted year vs. number of songs in the year per topic. 
+* Analyzing the most common words over all the songs and then creating 6 topics through vector implimentation to group these words under. Then, interpreting an emotional adjective (love song, relationship, anger, etc.) from the compiled result per topic. Next, comparing each song to the emotional adjectives selected to visualize which emotional adjective is closest to the words in the song. Then the songs are sorted by year and the topic of the songs are plotted year vs. number of songs in the year per topic. 
 
 ## Setup/Usage
 * Here I am practicing my use of processing Natural Language of words on Python 3. 
@@ -39,7 +39,11 @@ A search on the Kaggle Lyrics Dataset can confirm if the artist being seeked is 
 
 * Each topic is to now be read and interpreted as to select what the topic (the 10 words) could be referring to; this will be saved as a variable. 
 
+![87AC5967-C9DD-436A-987B-7C77AD8ABB41_4_5005_c](https://user-images.githubusercontent.com/55423732/71785031-eb8be500-2fc8-11ea-9ce9-0c2eb4b99677.jpeg)
 
+* Now the topic's values (relationship, distant, anger, etc.) can be visualized for each song. 
+
+* Now set a threshold in order for the set to return the values of either 0 or 1 for the topic per each song. 
 
 Removing common words and selecting a theme per top words used in songs of that year 
 Setting value of 'important' words to either 0 or 1 and taking the sum of 'important' words per song per year
