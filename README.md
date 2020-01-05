@@ -1,5 +1,8 @@
 # Lyrical Analysis of Blink-182 Songs
 
+## Introduction 
+* Analyzing the most common words over all the songs and then creating 6 topics to group these words under. Then, interpreting an emotional adjective (love song, hate, breakup, etc.) from the compiled result per topic. Next, comparing each song to the emotional adjectives selected to visualize which emotional adjective is closest to the words in the song. Then the songs are sorted by year and the topic of the songs are plotted year vs. number of songs in the year per topic. 
+
 ## Setup/Usage
 * Here I am practicing my use of processing Natural Language of words on Python 3. 
 The packages that are used are: [pandas](https://pandas.pydata.org/pandas-docs/stable/install.html), [nltk](https://www.nltk.org/install.html), [csv](https://docs.python.org/3/library/csv.html), [matplotlib](https://matplotlib.org/3.1.1/users/installing.html) and [sklearn](https://scikit-learn.org/stable/install.html) including [TfidfVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html).
@@ -20,8 +23,13 @@ A search on the Kaggle Lyrics Dataset can confirm if the artist being seeked is 
 
 ## Process 
 
-* Pandas will read the csv file and save it as a variable to parse through in order to define which artist to select and analyze. 
+* Pandas will read the csv file and save it as a variable to parse through in order to define which artist to select and analyze. We can use artist.head() to view the first 5 songs retrieved. 
+
 ![F00B4F4F-0FE3-42FB-9871-2BD0736A8903_4_5005_c](https://user-images.githubusercontent.com/55423732/71784743-d3b26200-2fc4-11ea-9690-eb60343b53e9.jpeg)
+
+* Now to clean up the csv we are reading, set the variable `songs` to include only header fields needed. This inlcudes **song**, **lyrics**, and **year**
+
+
 
 
 Removing common words and selecting a theme per top words used in songs of that year 
