@@ -20,8 +20,7 @@ A search on the Kaggle Lyrics Dataset can confirm if the artist being seeked is 
 
 ## Process 
 
-Pandas will read the csv file and save it as a variable to parse through in order to specify which artist to select and analyze 
-Importing lyrics from a csv file, organizing the data into defined artist's songs through the years (selected Blink182 from lyric CSV file)
+Pandas will read the csv file and save it as a variable to parse through in order to define which artist to select and analyze. 
 
 
 Removing common words and selecting a theme per top words used in songs of that year 
