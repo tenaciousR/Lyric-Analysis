@@ -21,6 +21,7 @@ A search on the Kaggle Lyrics Dataset can confirm if the artist being seeked is 
 ## Process 
 
 * Pandas will read the csv file and save it as a variable to parse through in order to define which artist to select and analyze. 
+![F00B4F4F-0FE3-42FB-9871-2BD0736A8903_4_5005_c](https://user-images.githubusercontent.com/55423732/71784743-d3b26200-2fc4-11ea-9690-eb60343b53e9.jpeg)
 
 
 Removing common words and selecting a theme per top words used in songs of that year 
