@@ -43,7 +43,11 @@ A search on the Kaggle Lyrics Dataset can confirm if the artist being seeked is 
 
 * Now the topic's values (relationship, distant, anger, etc.) can be visualized for each song. 
 
+![image](https://user-images.githubusercontent.com/55423732/71785094-943a4480-2fc9-11ea-8416-e13576b2d960.png)
+
 * Now set a threshold in order for the set to return the values of either 0 or 1 for the topic per each song. 
+
+![3BE8D2C3-EAF4-47AC-A8E2-66075C23D575_4_5005_c](https://user-images.githubusercontent.com/55423732/71785104-addb8c00-2fc9-11ea-807a-db3a6152b8e1.jpeg)
 
 Removing common words and selecting a theme per top words used in songs of that year 
 Setting value of 'important' words to either 0 or 1 and taking the sum of 'important' words per song per year
