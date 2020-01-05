@@ -8,7 +8,8 @@ The packages that are used are: [pandas](https://pandas.pydata.org/pandas-docs/s
 * The Library including this artist's lyric set as well as 380,000+ other artist's lyrics can be found at this [Kaggle Lyrics Dataset](https://www.kaggle.com/gyani95/380000-lyrics-from-metrolyrics).
 
 The open and read CSV file will contain the following fields:
-|'index'| : Numbered value of song within the entire dataset 
+
+* |"index"| : Numbered value of song within the entire dataset 
 
 
 
