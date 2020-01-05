@@ -1,7 +1,7 @@
 # Lyrical Analysis of Blink-182 Songs
 
 ## Introduction 
-* Analyzing the most common words over all the songs and then creating 6 topics to group these words under. Then, interpreting an emotional adjective (love song, hate, breakup, etc.) from the compiled result per topic. Next, comparing each song to the emotional adjectives selected to visualize which emotional adjective is closest to the words in the song. Then the songs are sorted by year and the topic of the songs are plotted year vs. number of songs in the year per topic. 
+* Analyzing the most common words over all the songs and then creating 6 topics through vector implimentation to group these words under. Then, interpreting an emotional adjective (love song, hate, breakup, etc.) from the compiled result per topic. Next, comparing each song to the emotional adjectives selected to visualize which emotional adjective is closest to the words in the song. Then the songs are sorted by year and the topic of the songs are plotted year vs. number of songs in the year per topic. 
 
 ## Setup/Usage
 * Here I am practicing my use of processing Natural Language of words on Python 3. 
@@ -28,6 +28,13 @@ A search on the Kaggle Lyrics Dataset can confirm if the artist being seeked is 
 ![F00B4F4F-0FE3-42FB-9871-2BD0736A8903_4_5005_c](https://user-images.githubusercontent.com/55423732/71784743-d3b26200-2fc4-11ea-9690-eb60343b53e9.jpeg)
 
 * Now to clean up the csv we are reading, set the variable `songs` to include only header fields needed. This inlcudes **song**, **lyrics**, and **year**
+
+![531BA2FE-ED7B-46D0-A3DA-DEEBA84599F4_4_5005_c](https://user-images.githubusercontent.com/55423732/71784892-dca43300-2fc6-11ea-92dc-702322f26e1d.jpeg)
+
+* stopwords are imported from [nltk.corpus](https://www.nltk.org/api/nltk.corpus.html) in order to remove common words from our data set. (Common words that are specific to the selected artist may be added to this list as well)
+
+* [NMF](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html) from sklearn will organize the remaining lyrics into common topics and then a for loop is used to return the first 10 words of each topic. 
+
 
 
 
