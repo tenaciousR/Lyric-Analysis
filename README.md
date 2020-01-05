@@ -16,7 +16,11 @@ The open and read CSV file will contain the following fields:
 * `genre` : genre of song
 * `lyrics` : the lyrics contained in the specified song
 
+A search on the Kaggle Lyrics Dataset can confirm if the artist being seeked is available in the dataset before downloading. 
 
+## Process 
+
+Pandas will read the csv file and save it as a variable to parse through in order to specify which artist to select and analyze 
 Importing lyrics from a csv file, organizing the data into defined artist's songs through the years (selected Blink182 from lyric CSV file)
 
 
