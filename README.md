@@ -9,7 +9,7 @@ The packages that are used are: [pandas](https://pandas.pydata.org/pandas-docs/s
 
 The open and read CSV file will contain the following fields:
 
-* |'index'| : Numbered value of song within the entire dataset 
+* `index` : Numbered value of song within the entire dataset 
 | `renders` |
 
 
