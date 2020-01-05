@@ -35,6 +35,7 @@ A search on the Kaggle Lyrics Dataset can confirm if the artist being seeked is 
 
 * [NMF](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html) from sklearn will organize the remaining lyrics into common topics and then a for loop is used to return the first 10 words of each topic. 
 
+![A333AE54-2760-499B-9EFD-502A0CB93951_4_5005_c](https://user-images.githubusercontent.com/55423732/71784995-5e489080-2fc8-11ea-9e6d-955ecfa77bcb.jpeg)
 
 
 
