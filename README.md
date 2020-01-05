@@ -37,6 +37,7 @@ A search on the Kaggle Lyrics Dataset can confirm if the artist being seeked is 
 
 ![A333AE54-2760-499B-9EFD-502A0CB93951_4_5005_c](https://user-images.githubusercontent.com/55423732/71784995-5e489080-2fc8-11ea-9e6d-955ecfa77bcb.jpeg)
 
+* Each topic is to now be read and interpreted as to select what the topic (the 10 words) could be referring to; this will be saved as a variable. 
 
 
 
