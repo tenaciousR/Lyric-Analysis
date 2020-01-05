@@ -10,7 +10,11 @@ The packages that are used are: [pandas](https://pandas.pydata.org/pandas-docs/s
 The open and read CSV file will contain the following fields:
 
 * `index` : Numbered value of song within the entire dataset 
-| `renders` |
+* `song` : song name
+* `year` : year the song was released
+* `artist` : who wrote the song
+* `genre` : genre of song
+* `lyrics` : the lyrics contained in the specified song
 
 
 Importing lyrics from a csv file, organizing the data into defined artist's songs through the years (selected Blink182 from lyric CSV file)
