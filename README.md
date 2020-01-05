@@ -41,14 +41,16 @@ A search on the Kaggle Lyrics Dataset can confirm if the artist being seeked is 
 
 ![87AC5967-C9DD-436A-987B-7C77AD8ABB41_4_5005_c](https://user-images.githubusercontent.com/55423732/71785031-eb8be500-2fc8-11ea-9ce9-0c2eb4b99677.jpeg)
 
-* Now the topic's values (relationship, distant, anger, etc.) can be visualized for each song. 
+* The topic's values (relationship, distant, anger, etc.) can be visualized for each song. 
 
 ![B472F3CC-C5F1-4F4F-931D-55DA299EDB95_4_5005_c](https://user-images.githubusercontent.com/55423732/71785119-e0858480-2fc9-11ea-9d07-f550d61cc015.jpeg)
 
-* Now set a threshold in order for the set to return the values of either 0 or 1 for the topic per each song. 
+* Set a threshold in order for the set to return the values of either 0 or 1 for the topic per each song. 
 
 ![3BE8D2C3-EAF4-47AC-A8E2-66075C23D575_4_5005_c](https://user-images.githubusercontent.com/55423732/71785104-addb8c00-2fc9-11ea-807a-db3a6152b8e1.jpeg)
 
-Removing common words and selecting a theme per top words used in songs of that year 
-Setting value of 'important' words to either 0 or 1 and taking the sum of 'important' words per song per year
-Plot 'important' words vs Year to see the artists 'feelings' throughout their career on the data base
+* The topics of each song in a given year can now be visualized and plotted as **years** vs. **topics mentioned in songs**.
+
+
+
+
