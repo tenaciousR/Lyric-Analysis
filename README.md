@@ -54,7 +54,7 @@ A search on the Kaggle Lyrics Dataset can confirm if the artist being seeked is 
 ![B081FE5A-AFF6-420F-9682-C1100D52C516_4_5005_c](https://user-images.githubusercontent.com/55423732/71785167-7b7e5e80-2fca-11ea-89dd-da5702fd7ccc.jpeg)
 
 
-* If you made it this far, thank you for following along on my first attempt at a form of NLP using a band's lyrics. Unfortunatly it can be seen that the year 2006 may have doubled up values for songs within the csv dataset and this was not accounted for. However for other artists this still works and a visual representation of what the artist is 'feeling' throughout the years based on lyrics is awesome!
+* If you made it this far, thank you for following along on my first attempt at a form of NLP using a band's lyrics. Unfortunatly it can be seen that the year 2006 may have doubled up values for songs within the csv dataset and this was not accounted for.
 
 ![D1614448-AFB9-45EB-A3DD-96730AEA5EE1](https://user-images.githubusercontent.com/55423732/71785168-820cd600-2fca-11ea-86b7-6465410463e7.jpeg)
 
